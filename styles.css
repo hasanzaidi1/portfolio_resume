@@ -30,3 +30,24 @@ body {
     font-size: 16px;
     margin: 5px 0;
 }
+
+
+.code {
+    display: inline-block;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #f4f4f4;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    white-space: pre-wrap; /* Preserve line breaks */
+    overflow-x: auto; /* Add horizontal scroll if needed */
+    min-width: fit-content; /* Only occupy necessary space */
+}
+
+.code a {
+    color: rgb(149, 28, 194);
+    text-decoration: none;
+}
+
+
+
